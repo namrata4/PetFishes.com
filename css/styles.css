@@ -1,0 +1,45 @@
+/*changing the default color of Bootstrap Navigation Bar */
+.navbar-inverse, .fishFooter {
+	background-color: #007acc;
+	border-color: #007acc;
+}
+
+.navbar-inverse .navbar-brand, .fishFooter {
+	color: #fff;
+}
+
+.fishFooter a {
+	color: #fff;
+}
+.page-header {
+	margin-top: 70px;
+}
+
+.fishImage {
+	width: 300px;
+	height: 250px;
+}
+
+.fish {
+	margin: 10px;
+    padding: 10px;
+    border-style: inset;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.title {
+    font-family:'freight-text-pro',serif;
+    color: blue;
+}
+
+body {
+	font-family:'freight-text-pro',serif;
+	font-size: 16px;
+	background-image: url(../images/fish3.jpg);
+	background-size: cover;
+}
+
+.fishDesc, .fishProp {
+	font-weight: 300;
+}
